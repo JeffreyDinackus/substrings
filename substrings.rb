@@ -3,7 +3,7 @@
 def substrings (string, dictionary)
 
   result = {}
-  split = string.split
+  split = string.split.downcase
 
   dictionary.each do |word|
     split.each do |word2|
